@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CodeBundle IO: Getting Started</title>
+  <subtitle>Posts tagged with Getting Started</subtitle>
+  <id>https://codebundle.io</id>
+  <link href="https://codebundle.io"/>
+  <link href="https://codebundle.io/tag/getting-started/feed.xml" rel="self"/>
+  <updated>2013-10-26T02:00:00+02:00</updated>
+  <author>
+    <name>dreamingechoes</name>
+  </author>
+  <entry>
+    <title>Welcome to Ghost</title>
+    <link rel="alternate" href="https://codebundle.io/2013/10/26/welcome-to-ghost/"/>
+    <id>https://codebundle.io/2013/10/26/welcome-to-ghost/</id>
+    <published>2013-10-26T02:00:00+02:00</published>
+    <updated>2019-03-05T18:06:00+01:00</updated>
+    <author>
+      <name>dreamingechoes</name>
+    </author>
+    <summary type="html">You’re in! Nice. We’ve put together a little post to introduce you to the Ghost
+editor and get you started. Go ahead and edit this post to get going and learn
+how it all works!
+
+Getting Started
+
+Writing in markdown is really easy. In the left hand panel</summary>
+  </entry>
+</feed>
