@@ -54,30 +54,24 @@ module.exports = {
       {
         test: /\.scss$/,
         exclude: [/node_modules/, /\.js$/],
-        use: [
-          {
-            loader: 'css-loader',
-            query: {
-              sourceMap: true,
-              importLoaders: 1,
+        use: ExtractTextPlugin.extract({
+          use: [
+            {
+              loader: 'css-loader',
+              query: {
+                sourceMap: true,
+                importLoaders: 1,
+              },
             },
-          },
-          // 'postcss-loader?sourceMap',
-          // {
-          //   loader: 'resolve-url-loader',
-          //   options: {
-          //     sourceMap: true,
-          //     // root: path.resolve(__dirname, 'assets/stylesheets'),
-          //   },
-          // },
-          {
-            loader: 'sass-loader?sourceMap',
-            options: {
-              sourceMap: true,
-              includePaths: ['node_modules'],
+            {
+              loader: 'sass-loader?sourceMap',
+              options: {
+                sourceMap: true,
+                includePaths: ['node_modules'],
+              },
             },
-          },
-        ],
+          ],
+        }),
       },
     ],
   },
